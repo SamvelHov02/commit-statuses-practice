@@ -8,4 +8,8 @@ def test_mul(): assert mul(3,2) == 6
 def test_sub(): assert sub(3,2) == 1
 
 def test_add_negative(): assert add(3,2) != 6
+
+def test_mul_negative(): assert mul(3,2) != 7
+
+def test_sub_negative(): assert sub(3,2) != 2
  
