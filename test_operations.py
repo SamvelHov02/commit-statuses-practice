@@ -12,4 +12,7 @@ def test_add_negative(): assert add(3,2) != 6
 def test_mul_negative(): assert mul(3,2) != 7
 
 def test_sub_negative(): assert sub(3,2) != 2
+
+def test_factorial(): assert factorial(4) == 24
  
+def test_factorial_negative(): assert factorial(4) != 25
