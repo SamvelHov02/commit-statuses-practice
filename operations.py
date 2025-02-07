@@ -11,3 +11,8 @@ def factorial(x):
         return 1
     return x * factorial(x - 1)
 
+
+def exp(x, y): 
+    if y == 1:
+        return x
+    return x * exp(x, y - 1)
