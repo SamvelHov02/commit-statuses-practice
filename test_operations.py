@@ -27,3 +27,10 @@ def test_mod(): assert mod(8, 3) == 2
 
 def test_muls(): assert muls([2, 3, 4]) == 24
 
+def test_vec_add():
+    expected = [3, 7]
+    actual =  vector_add([1, 2], [2, 5])
+    
+    for i in range(len(actual)):
+        assert expected[i] == actual[i]
+

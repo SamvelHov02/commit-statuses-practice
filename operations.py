@@ -32,3 +32,13 @@ def muls(xs):
     if len(xs) == 0:
         return 1
     return xs[0] * muls(xs[1:])
+
+    
+def vector_add(xs, ys):
+    if len(xs) != len(ys):
+        return []
+    res_vec = [0] * len(xs)
+    for i in range(len(xs)):
+        res_vec[i] = xs[i] + ys[i]
+        
+    return res_vec
