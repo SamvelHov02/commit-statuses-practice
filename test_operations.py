@@ -25,3 +25,5 @@ def test_sum(): assert sum([1,2,3])  == 6
 
 def test_mod(): assert mod(8, 3) == 2
 
+def test_muls(): assert muls([2, 3, 4]) == 24
+

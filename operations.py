@@ -26,3 +26,9 @@ def sum(xs):
 
 def mod(x, y):
     return x - ((x // y) * y)
+
+    
+def muls(xs):
+    if len(xs) == 0:
+        return 1
+    return xs[0] * muls(xs[1:])
