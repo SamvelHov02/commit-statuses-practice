@@ -21,3 +21,7 @@ def test_exp_positive(): assert exp(2, 3) == 8
 
 def test_exp_negative(): assert exp(3, 2) != 8
 
+def test_sum(): assert sum([1,2,3])  == 6
+
+def test_mod(): assert mod(8, 3) == 2
+
